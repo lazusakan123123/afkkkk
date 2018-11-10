@@ -24,7 +24,7 @@ fs.readdir("./komutlar/", (err, files) => {
 bot.on("ready", async () => {
   console.log(`${bot.user.username} ${bot.guilds.size} sunucuda aktif!`);
 
-  bot.user.setActivity("&yardım komutunu kullanın'YI", {type: "WATCHING"});
+  bot.user.setActivity("10 KASIM ATAM ÇOK YAŞA'YI", {type: "WATCHING"});
 });
 
 bot.on("message", async message => {
